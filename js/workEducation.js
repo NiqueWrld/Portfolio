@@ -51,7 +51,7 @@
 //Education
 //================================================== 
 
-fetch('../json/edu-data.json')
+fetch('https://raw.githubusercontent.com/NiqueWrld/Portfolio/main/json/edu-data.json')
 .then(response => response.json())
 .then(data => {
   const timelineContainer = document.getElementById('edu'); // Assuming you have a div with id="timeline" in your HTML
