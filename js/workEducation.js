@@ -1,7 +1,7 @@
 //Work
 //================================================== 
 
-    fetch('../json/work-data.json')
+    fetch('https://raw.githubusercontent.com/NiqueWrld/Portfolio/main/json/work-data.json')
     .then(response => response.json())
     .then(data => {
       const timelineContainer = document.getElementById('work'); // Assuming you have a div with id="timeline" in your HTML
