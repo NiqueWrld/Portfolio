@@ -3,7 +3,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 window.onload = () => loadModel();
-alert()
+
 function loadModel() {
   const loader = new GLTFLoader();
   loader.load('avatar/avatar.glb',
