@@ -277,7 +277,7 @@
         ssMobileMenu();
         ssWaypoints();
         ssMasonryFolio();
-        ssPhotoswipe();
+        //ssPhotoswipe();
         ssSlickSlider();
         ssSmoothScroll();
         ssAlertBoxes();
